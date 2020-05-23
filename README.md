@@ -44,7 +44,7 @@ You will learn about
    In the terminal run below commnad to know the which version install on your machine
    > `$ tsc -v`
  
- 3) Install Git:
+3) Install Git:
  
    > https://sourceforge.net/projects/git-osx-installer/
 
