@@ -30,10 +30,10 @@ You will learn about
 ## Environment Setup
 
 * Download and install nodejs
-  - https://nodejs.org/en/download/
+  > https://nodejs.org/en/download/
   
   In the terminal run below commnad to check nodejs version
-  `$ node -v`
+  > `$ node -v`
   
 * Install TypeScript 
  - In the terminal run below commnad 
