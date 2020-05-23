@@ -30,10 +30,11 @@ You will learn about
 ## Environment Setup
 
 1) Download and install nodejs
-  > https://nodejs.org/en/download/
+
+   > https://nodejs.org/en/download/
   
-  In the terminal run below commnad to check nodejs version
-  > `$ node -v`
+   In the terminal run below commnad to check nodejs version
+   > `$ node -v`
   
 2) Install TypeScript 
  
@@ -44,12 +45,14 @@ You will learn about
    > `$ tsc -v`
  
  3) Install Git:
+ 
    > https://sourceforge.net/projects/git-osx-installer/
 
    In the terminal run below commnad to know the which version install on your machine
    > `$ git --version`
 
 4) Install Visual Studio Code IDE
+
    > https://code.visualstudio.com/download
 
  
