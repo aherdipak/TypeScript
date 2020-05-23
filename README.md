@@ -36,21 +36,21 @@ You will learn about
   > `$ node -v`
   
 * Install TypeScript 
- - In the terminal run below commnad 
- `$ sudo npm install -g typescript`
+ 
+ In the terminal run below commnad 
+ > `$ sudo npm install -g typescript`
  
  In the terminal run below commnad to know the which version install on your machine
- `$ tsc -v`
+ > `$ tsc -v`
  
  * Install Git:
- - https://git-scm.com/downloads
- - https://sourceforge.net/projects/git-osx-installer/
+ > https://sourceforge.net/projects/git-osx-installer/
 
  In the terminal run below commnad to know the which version install on your machine
- `$ git --version`
+ > `$ git --version`
 
  * Install Visual Studio Code IDE
-   - https://code.visualstudio.com/download
+  > https://code.visualstudio.com/download
 
  
 ## Step wise details
