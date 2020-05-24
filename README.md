@@ -85,3 +85,15 @@ You will learn about
    
    ## Variable Declarations
    
+   Unlike traditional javascipt typescript encarages to use `let` and `const` keywords to variable declarations. 
+   
+   Javascript has only `global scope` and `function scope` there is no `block lavel scope` this is something that often misleand programmers to use other languages.
+   
+   Both `let` and `const` supports `block level scoping` and you can't redeclared variable multiple times with `let` or `const`
+   
+   ```
+   let x = 10;
+   const y = 20;
+
+   //let x= 10; // get error
+   ```
