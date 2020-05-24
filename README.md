@@ -56,4 +56,22 @@ You will learn about
    > https://code.visualstudio.com/download
 
  
-## Step wise details
+## Variable Declarations
+   ```
+   let msg = 'Hello world';
+   console.log(msg);
+   ```
+   Now compile this code to plain javascript using typescript compiler.
+   Open terminal and run the below command
+   `$ tsc main.ts` (extension is optional)
+   command creates file `main.js` which contains the transpiled code to run code in the terminal run below command
+   `$ node main.js` (extension is optional)
+   
+   If you notice we have an error on `msg` variable says "Cannot redeclare block-scoped variable 'msg'." this happpes because the file is treated as a script rather than a module.
+   A module has its own scrope where as scripts share the global scrope. to remove this error we need to add an export statement at the top which exports nothing. by adding import & export statement typescript treats this file is a module instead of script.( so at the top add `export{}`)
+
+   ```
+   export{}
+   let msg = 'Hello world';
+   console.log(msg);
+   ```
