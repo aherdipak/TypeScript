@@ -95,5 +95,16 @@ You will learn about
    let x = 10;
    const y = 20;
 
-   //let x= 10; // get error
+   let x= 10; // get error
    ```
+   #### What is the differance between `let` and `const`?
+   
+   `let` declaration can be done without initialization whereas `const` declaration always initialised with the value and `const` declaration once assigned can never be reassiged.
+   
+   ```
+   let sum;
+  
+   const title; //get error
+   const title = 'Welcome';
+   ```
+
