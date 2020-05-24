@@ -56,7 +56,7 @@ You will learn about
    > https://code.visualstudio.com/download
 
  
-## Variable Declarations
+## Run Commands
    ```
    let msg = 'Hello world';
    console.log(msg);
@@ -78,3 +78,10 @@ You will learn about
    let msg = 'Hello world';
    console.log(msg);
    ```
+   Now userfull feature is automatically recompile that typescript file whenever there is a change. We can do that using the `watch option` of the typescript compiler. 
+   
+   In the terminal run the command  
+   > `$ tsc main --watch`
+   
+   ## Variable Declarations
+   
