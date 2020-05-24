@@ -181,7 +181,7 @@ You will learn about
    console.log(c);
    ```
    
-   If you see in console the of `c` is 1 
+   If you see in console the value of `c` is 1 
   
   `enum` values begin with a value of 0, So Red is 0, Green ia 1 and Blue is 2
   
